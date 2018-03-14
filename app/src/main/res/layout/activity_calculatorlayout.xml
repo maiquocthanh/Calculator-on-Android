@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:gravity="bottom|right"
+        android:hint="Result"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnnumber1"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="3"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="+"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnnumber4"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="4"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber5"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="5"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber6"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="6"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="-"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnnumber7"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="7"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber8"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="8"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber9"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="9"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnmulti"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="x"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnc"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="C"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnnumber0"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnequal"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="?attr/colorControlHighlight"
+            android:text="="
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="/"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
